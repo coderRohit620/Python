@@ -35,4 +35,16 @@ print(s.find("t"))
 print(s.find("z"))
 
 # Strings are Immutable
+# s[0] = "J"
+s = "J" + s[1:]
+print(s)
+
+# Membership Operators
+print("py" in "python")
+print("Java" in "Python")
+
+# Useful Built-in Functions
+print(len("python"))
+print(max("abc"))
+print(min("abc"))
 
