@@ -17,6 +17,22 @@ print(s[:4])
 print(s[2:])
 print(s[::-1])
 
+# string methods
+print(s.upper())
+print(s.lower())
 
+a = "  Python  "
+print(a)
+print(a.strip())
 
+b = "I Love Java"
+print(b.replace("Java","Python"))
+
+text = "apple banana mango"
+print(text.split())
+
+print(s.find("t"))
+print(s.find("z"))
+
+# Strings are Immutable
 
