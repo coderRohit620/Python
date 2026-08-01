@@ -48,3 +48,48 @@ print(len("python"))
 print(max("abc"))
 print(min("abc"))
 
+# Coding Problems
+
+# Reverse a String
+def reverse(c):
+    return c[::-1]
+print(reverse("Rohit"))
+
+def reverse(s):
+    ans = ""
+    for ch in s:
+        ans = ch + ans
+    return ans
+print(reverse("Rohit"))
+
+# palindrome Check
+def is_palindrome(s):
+    return s == s[::-1]
+print(is_palindrome("madam"))
+
+# Count Vowels
+def count_vowels(s):
+    vowels = "aeiouAEIOU"
+    count = 0
+    
+    for ch in s:
+        if ch in vowels:
+            count += 1
+    return count
+
+print(count_vowels("Rohit"))
+
+# ⭐ Assignment
+# Theory
+# What is the difference between indexing and slicing?
+# Why are strings immutable?
+# What does find() return if the substring is not present?
+# Coding
+
+# Write programs for:
+
+# Reverse a string.
+# Check whether a string is a palindrome.
+# Count vowels in a string.
+# Count the frequency of each character.
+# Remove all spaces from a string.
